@@ -23,3 +23,15 @@ console.log(media.toFixed(1).replace(',','.'))
 //  }else{
 //      prompt("Que pena!Você está reprovado")
 //  }
+// var nota = 14013;
+
+// function insertDot(a){
+//   nota = nota.toString(); // Transforma em String 
+//   var beforeDot = nota.substring(0, nota.length-2); // Captura do primeiro ao penúltimo caractere
+//   var afterDot = nota.substring(nota.length-2, nota.length); // Captura o penúltimo ao último caractere
+//   return parseFloat(beforeDot + "." + afterDot); // retorna um NÚMERO com com o ponto inserido
+// }
+
+// document.body.innerHTML += insertDot(nota);
+// document.body.innerHTML += "<br>";
+// document.body.innerHTML += insertDot(nota) * 2;

@@ -6,8 +6,9 @@ while (numSec != numDig) {
     prompt('Que pena, tente novamente!')
 
 }
-if (numSec == numDig) {
+if (numSec === numDig) {
     prompt('Parabens você acertou!')
+}
 
 
 
